@@ -17,8 +17,7 @@ public class LineSub extends Point {
 
     // Getters and Setters
     public Point getBegin() {
-        Point begin = new Point(super.getX(), super.getY());
-        return begin;
+        return this;
     }
 
     public void setBegin(Point begin) {
