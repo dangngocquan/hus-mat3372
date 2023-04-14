@@ -139,7 +139,7 @@ public class CountryArrayManager {
         System.arraycopy(this.countries, 0, newArray, 0, this.length);
 
         for (int index = 0; index < newArray.length; index++) {
-            // Find country which has min population
+            // Find country which has max population
             int maxPopulation = newArray[index].getPopulation();
             int indexOfMaxPopulation = index;
             for (int i = index + 1; i < newArray.length; i++) {
