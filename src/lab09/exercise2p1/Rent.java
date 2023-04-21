@@ -1,5 +1,7 @@
 package lab09.exercise2p1;
 
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class Rent {

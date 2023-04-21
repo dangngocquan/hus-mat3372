@@ -2,7 +2,9 @@ package lab09.exercise2p1;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 
 public class TestApp {
     public static void main(String[] args) throws ParseException {
@@ -12,7 +14,7 @@ public class TestApp {
         Student s1 = new Student("0001", "Darrell", "Abbott");
         Student s2 = new Student("0002", "Nick", "Drake");
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy", Locale.ENGLISH);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
         Rent[] rents = new Rent[5];
         rents[0] = new Rent(i1, s1, sdf.parse("15/06/2020"), sdf.parse("15/07/2020"));
         rents[1] = new Rent(i1, s2, sdf.parse("10/07/2020"), sdf.parse("20/07/2020"));
