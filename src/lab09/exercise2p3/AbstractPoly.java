@@ -50,16 +50,21 @@ public abstract class AbstractPoly implements Poly {
         StringBuilder sb = new StringBuilder();
         for (int degree = 0; degree < coefficients.length; degree++) {
             double coefficient = coefficients[degree];
-            if (degree == 0) {
-                sb.append(coefficient).append(" + ");
-            } else if (degree == 1) {
-                sb.append(coefficient).append(" * x + ");
-            } else {
-                sb.append(coefficient).append(String.format(" * x^%d + ", degree));
+            if (Double.compare(coefficient, 0) != 0) {
+                if (degree == 0) {
+                    sb.append(coefficient).append(" + ");
+                } else if (degree == 1) {
+                    sb.append(coefficient).append(" * x + ");
+                } else {
+                    sb.append(coefficient).append(String.format(" * x^%d + ", degree));
+                }
             }
         }
         if (sb.length() > 0) {
             sb.delete(sb.length() - 3, sb.length());
+        }
+        if (sb.length() == 0) {
+            sb.append(0);
         }
         return sb.toString();
     }

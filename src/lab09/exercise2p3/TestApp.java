@@ -15,6 +15,27 @@ public class TestApp {
         }
 
         ap = ap.derivative();
-        System.out.println(ap);
+        System.out.println("ap = " + ap);
+
+        ap = ap.derivative();
+        System.out.println("ap = " + ap);
+
+        ap = ap.derivative();
+        System.out.println("ap = " + ap);
+
+        ap = ap.derivative();
+        System.out.println("ap = " + ap);
+
+        lp = lp.derivative();
+        System.out.println("lp = " + lp);
+
+        lp = lp.derivative();
+        System.out.println("lp = " + lp);
+
+        lp = lp.derivative();
+        System.out.println("lp = " + lp);
+
+        lp = lp.derivative();
+        System.out.println("lp = " + lp);
     }
 }
