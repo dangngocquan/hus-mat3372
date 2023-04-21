@@ -22,11 +22,14 @@ public abstract class AbstractPoly implements Poly {
 
     @Override
     public boolean equals(Object object) {
-        if (this == object) {
-            return true;
-        }
-
-        if (object == null || getClass() != object.getClass()) {
+//        if (this == object) {
+//            return true;
+//        }
+//
+//        if (object == null || getClass() != object.getClass()) {
+//            return false;
+//        }
+        if (object == null) {
             return false;
         }
 
