@@ -11,12 +11,9 @@ public abstract class AbstractPoly implements Poly {
         double[] coefficients = coefficients();
         double[] coefficientsDerive = new double[coefficients.length];
         for (int degree = 1; degree < coefficients.length; degree++) {
-            if (degree == coefficients.length - 1) {
-                coefficientsDerive[degree] = 0;
-            } else {
-                coefficientsDerive[degree-1] = degree * coefficients[degree];
-            }
+            coefficientsDerive[degree-1] = degree * coefficients[degree];
         }
+        coefficientsDerive[coefficients.length - 1] = 0;
         return coefficientsDerive;
     }
 

@@ -14,5 +14,7 @@ public class TestApp {
             System.out.println("ap != lp");
         }
 
+        ap = ap.derivative();
+        System.out.println(ap);
     }
 }
