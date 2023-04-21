@@ -15,6 +15,11 @@ public class Rent {
         this.end = end;
     }
 
+    public String toString() {
+        return String.format("Rent[item=%s, student=%s, begin=%s, end=%s]",
+                item, student, begin, end);
+    }
+
     public Item getItem() {
         return item;
     }
