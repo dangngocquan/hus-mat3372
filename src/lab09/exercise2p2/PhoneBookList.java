@@ -1,6 +1,8 @@
 package lab09.exercise2p2;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class PhoneBookList implements PhoneBook {
     ArrayList<Student> phoneBook;
@@ -49,10 +51,15 @@ public class PhoneBookList implements PhoneBook {
 
     @Override
     public void deleteByNumber(String phone) {
+        List<Student> removeStudents = new LinkedList<Student>();
         for (Student student : phoneBook) {
             if (student != null && student.getPhone().equals(phone)) {
-                phoneBook.remove(student);
+                removeStudents.add(student);
             }
+        }
+
+        for (Student student : removeStudents) {
+            phoneBook.remove(student);
         }
     }
 }
