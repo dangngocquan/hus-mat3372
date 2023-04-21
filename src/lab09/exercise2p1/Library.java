@@ -13,6 +13,7 @@ public class Library {
         for (Rent rent : rents) {
             if (rent != null && rent.getDiffDays() > diffDays) {
                 longestRent = rent;
+                diffDays = rent.getDiffDays();
             }
         }
         return longestRent;
