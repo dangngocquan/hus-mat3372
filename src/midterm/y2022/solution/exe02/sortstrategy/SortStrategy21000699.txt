@@ -1,0 +1,16 @@
+[88 3 72 38 59 74 74 61 91 67]
+
+Using Bubble Sort Algorithm:
+Before sorting: [88 3 72 38 59 74 74 61 91 67]
+After sorting: [3 38 59 61 67 72 74 74 88 91]
+Number of swap: 17
+
+Using Insertion Sort Algorithm:
+Before sorting: [88 3 72 38 59 74 74 61 91 67]
+After sorting: [3 38 59 61 67 72 74 74 88 91]
+Number of swap: 17
+
+Using Insertion Sort Algorithm:
+Before sorting: [88 3 72 38 59 74 74 61 91 67]
+After sorting: [3 38 59 61 67 72 74 74 88 91]
+Number of swap: 8
