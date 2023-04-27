@@ -1,0 +1,35 @@
+ITEMS with loops
+----
+ARRAY
+ListItem1
+ListItem2
+ListItem3
+ListItem4
+ListItem5
+ListItem6
+
+LIST
+ArrayItem1
+ArrayItem2
+ArrayItem3
+ArrayItem4
+ArrayItem5
+ArrayItem6
+
+ITEMS (with iterators)
+----
+ARRAY
+ArrayItem1
+ArrayItem2
+ArrayItem3
+ArrayItem4
+ArrayItem5
+ArrayItem6
+
+LIST
+ListItem1
+ListItem2
+ListItem3
+ListItem4
+ListItem5
+ListItem6

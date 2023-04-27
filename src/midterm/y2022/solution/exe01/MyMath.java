@@ -26,10 +26,12 @@ public class MyMath {
     }
 
     public static String decimalTo(String number, int outRadix) {
+        char[] chars = {'0', '1', '2', '3', '4', '5', '6', '7',
+                        '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         String res = "";
         int decimalNum = Integer.parseInt(number);
         while (decimalNum > 0) {
-            res = decimalNum % outRadix + res;
+            res = chars[decimalNum % outRadix] + res;
             decimalNum /= outRadix;
         }
         return res;
@@ -46,15 +48,12 @@ public class MyMath {
     }
 
     public static String toDecimal(String number, int inRadix) {
+        String chars = "0123456789ABCDEF";
         number = number.toUpperCase();
         int decimalNum = 0;
         for (int i = 0; i < number.length(); i++) {
             char c = number.charAt(i);
-            if (("0123456789").indexOf(c) > -1) {
-                decimalNum = decimalNum * inRadix + (number.charAt(i) - '0');
-            } else {
-                decimalNum = decimalNum * inRadix + (10 + number.charAt(i) - 'A');
-            }
+            decimalNum = decimalNum * inRadix + chars.indexOf(c);
         }
         return decimalNum + "";
     }
