@@ -1,4 +1,4 @@
-package oop.principles.abstraction;
+package midterm.y2023.solution.exe01.oop.principles.abstraction;
 
 public class Square extends Shape implements Movable {
     private double side;

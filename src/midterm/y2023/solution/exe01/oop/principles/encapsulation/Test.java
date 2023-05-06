@@ -1,4 +1,4 @@
-package oop.principles.encapsulation;
+package midterm.y2023.solution.exe01.oop.principles.encapsulation;
 
 public class Test {
     public static void main(String[] args) {

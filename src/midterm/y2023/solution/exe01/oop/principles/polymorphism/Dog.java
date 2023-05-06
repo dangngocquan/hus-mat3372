@@ -1,4 +1,4 @@
-package oop.principles.polymorphism;
+package midterm.y2023.solution.exe01.oop.principles.polymorphism;
 
 public class Dog extends Animal {
     public Dog(String name) {

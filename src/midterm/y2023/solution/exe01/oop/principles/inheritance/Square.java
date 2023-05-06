@@ -1,4 +1,4 @@
-package oop.principles.inheritance;
+package midterm.y2023.solution.exe01.oop.principles.inheritance;
 
 public class Square extends Rectangle {
 

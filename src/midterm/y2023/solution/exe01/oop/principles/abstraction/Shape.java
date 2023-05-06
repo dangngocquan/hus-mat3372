@@ -1,4 +1,4 @@
-package oop.principles.abstraction;
+package midterm.y2023.solution.exe01.oop.principles.abstraction;
 
 public abstract class Shape {
     private int xCenter;
