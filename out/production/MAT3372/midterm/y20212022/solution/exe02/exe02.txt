@@ -1,0 +1,60 @@
+Poly 1:
+Poly[1 + 40x + 82x^2 + 99x^3 + 60x^4 + 57x^5 + 85x^6 + 5x^7]
+Poly[40 + 164x + 297x^2 + 240x^3 + 285x^4 + 510x^5 + 35x^6]
+1
+429.0
+Array Poly
+Poly 2:
+Poly[16 + 21x + 28x^2 + 40x^3]
+Poly[21 + 56x + 120x^2]
+5
+5821.0
+Array Poly
+Poly 3:
+Poly[57 + 87x + 8x^2 + 97x^3 + 43x^4 + 11x^5 + 65x^6 + 72x^7]
+Poly[87 + 16x + 291x^2 + 172x^3 + 55x^4 + 390x^5 + 504x^6]
+9
+3.79921296E8
+Array Poly
+Poly 4:
+Poly[15 + 12x + 27x^2 + 15x^3 + 84x^4]
+Poly[12 + 54x + 45x^2 + 336x^3]
+3
+7503.0
+Array Poly
+Poly 5:
+Poly[15]
+Poly[0]
+7
+15.0
+Array Poly
+Poly 6:
+Poly[70 + 31x + 58x^2 + 68x^3 + 31x^4 + 58x^5 + 60x^6 + 21x^7 + 81x^8 + 96x^9]
+Poly[31 + 116x + 204x^2 + 124x^3 + 290x^4 + 360x^5 + 147x^6 + 648x^7 + 864x^8]
+4
+3.1136866E7
+List Poly
+Poly 7:
+Poly[5 + 54x + 84x^2 + 15x^3 + 22x^4 + 56x^5 + 74x^6 + 85x^7]
+Poly[54 + 168x + 45x^2 + 88x^3 + 280x^4 + 444x^5 + 595x^6]
+9
+4.49348315E8
+List Poly
+Poly 8:
+Poly[46 + 21x]
+Poly[21]
+4
+130.0
+List Poly
+Poly 9:
+Poly[40 + 73x + 81x^2 + 64x^3 + 73x^4 + 81x^5]
+Poly[73 + 162x + 192x^2 + 292x^3 + 405x^4]
+9
+5315836.0
+List Poly
+Poly 10:
+Poly[46 + 52x + 16x^2 + 42x^3 + 90x^4]
+Poly[52 + 32x + 126x^2 + 360x^3]
+6
+126646.0
+List Poly
