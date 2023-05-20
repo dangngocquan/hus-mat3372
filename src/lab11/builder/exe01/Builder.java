@@ -1,4 +1,4 @@
-package lab11.builder;
+package lab11.builder.exe01;
 
 public interface Builder {
     public Builder reset();
