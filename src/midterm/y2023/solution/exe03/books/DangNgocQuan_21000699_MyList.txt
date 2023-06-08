@@ -1,0 +1,152 @@
+Test MyArrayList:
+
+Current list:
+Book{title='Book210', year=1823, pages=487}
+Book{title='Book612', year=1999, pages=709}
+Book{title='Book355', year=1935, pages=443}
+Book{title='Book616', year=1870, pages=834}
+Book{title='Book826', year=1893, pages=639}
+Book{title='Book072', year=1877, pages=645}
+Book{title='Book618', year=1946, pages=599}
+Book{title='Book783', year=1863, pages=988}
+Book{title='Book642', year=1840, pages=208}
+Book{title='Book192', year=1958, pages=781}
+
+After sort by title, order = true:
+Book{title='Book072', year=1877, pages=645}
+Book{title='Book192', year=1958, pages=781}
+Book{title='Book210', year=1823, pages=487}
+Book{title='Book355', year=1935, pages=443}
+Book{title='Book612', year=1999, pages=709}
+Book{title='Book616', year=1870, pages=834}
+Book{title='Book618', year=1946, pages=599}
+Book{title='Book642', year=1840, pages=208}
+Book{title='Book783', year=1863, pages=988}
+Book{title='Book826', year=1893, pages=639}
+
+After sort by title, order = false:
+Book{title='Book826', year=1893, pages=639}
+Book{title='Book783', year=1863, pages=988}
+Book{title='Book642', year=1840, pages=208}
+Book{title='Book618', year=1946, pages=599}
+Book{title='Book616', year=1870, pages=834}
+Book{title='Book612', year=1999, pages=709}
+Book{title='Book355', year=1935, pages=443}
+Book{title='Book210', year=1823, pages=487}
+Book{title='Book192', year=1958, pages=781}
+Book{title='Book072', year=1877, pages=645}
+
+After sort by page number, order = true:
+Book{title='Book642', year=1840, pages=208}
+Book{title='Book355', year=1935, pages=443}
+Book{title='Book210', year=1823, pages=487}
+Book{title='Book618', year=1946, pages=599}
+Book{title='Book826', year=1893, pages=639}
+Book{title='Book072', year=1877, pages=645}
+Book{title='Book612', year=1999, pages=709}
+Book{title='Book192', year=1958, pages=781}
+Book{title='Book616', year=1870, pages=834}
+Book{title='Book783', year=1863, pages=988}
+
+After sort by page number, order = false:
+Book{title='Book783', year=1863, pages=988}
+Book{title='Book616', year=1870, pages=834}
+Book{title='Book192', year=1958, pages=781}
+Book{title='Book612', year=1999, pages=709}
+Book{title='Book072', year=1877, pages=645}
+Book{title='Book826', year=1893, pages=639}
+Book{title='Book618', year=1946, pages=599}
+Book{title='Book210', year=1823, pages=487}
+Book{title='Book355', year=1935, pages=443}
+Book{title='Book642', year=1840, pages=208}
+
+------------------------------------------------------------------
+
+Test MyLinkedList:
+
+Current list:
+Book{title='Book776', year=1855, pages=139}
+Book{title='Book289', year=1872, pages=956}
+Book{title='Book301', year=1966, pages=1004}
+Book{title='Book926', year=1828, pages=623}
+Book{title='Book931', year=1947, pages=175}
+Book{title='Book066', year=1806, pages=634}
+Book{title='Book302', year=1940, pages=82}
+Book{title='Book186', year=1971, pages=416}
+Book{title='Book864', year=1839, pages=312}
+Book{title='Book877', year=1847, pages=941}
+
+After sort by title, order = true:
+Book{title='Book066', year=1806, pages=634}
+Book{title='Book186', year=1971, pages=416}
+Book{title='Book289', year=1872, pages=956}
+Book{title='Book301', year=1966, pages=1004}
+Book{title='Book302', year=1940, pages=82}
+Book{title='Book776', year=1855, pages=139}
+Book{title='Book864', year=1839, pages=312}
+Book{title='Book877', year=1847, pages=941}
+Book{title='Book926', year=1828, pages=623}
+Book{title='Book931', year=1947, pages=175}
+
+After sort by title, order = false:
+Book{title='Book931', year=1947, pages=175}
+Book{title='Book926', year=1828, pages=623}
+Book{title='Book877', year=1847, pages=941}
+Book{title='Book864', year=1839, pages=312}
+Book{title='Book776', year=1855, pages=139}
+Book{title='Book302', year=1940, pages=82}
+Book{title='Book301', year=1966, pages=1004}
+Book{title='Book289', year=1872, pages=956}
+Book{title='Book186', year=1971, pages=416}
+Book{title='Book066', year=1806, pages=634}
+
+After sort by page number, order = true:
+Book{title='Book302', year=1940, pages=82}
+Book{title='Book776', year=1855, pages=139}
+Book{title='Book931', year=1947, pages=175}
+Book{title='Book864', year=1839, pages=312}
+Book{title='Book186', year=1971, pages=416}
+Book{title='Book926', year=1828, pages=623}
+Book{title='Book066', year=1806, pages=634}
+Book{title='Book877', year=1847, pages=941}
+Book{title='Book289', year=1872, pages=956}
+Book{title='Book301', year=1966, pages=1004}
+
+After sort by page number, order = false:
+Book{title='Book301', year=1966, pages=1004}
+Book{title='Book289', year=1872, pages=956}
+Book{title='Book877', year=1847, pages=941}
+Book{title='Book066', year=1806, pages=634}
+Book{title='Book926', year=1828, pages=623}
+Book{title='Book186', year=1971, pages=416}
+Book{title='Book864', year=1839, pages=312}
+Book{title='Book931', year=1947, pages=175}
+Book{title='Book776', year=1855, pages=139}
+Book{title='Book302', year=1940, pages=82}
+
+------------------------------------------------------------------
+
+Test Iterator:
+
+Book{title='Book931', year=1854, pages=132}
+Book{title='Book549', year=1943, pages=801}
+Book{title='Book989', year=1803, pages=316}
+Book{title='Book651', year=1925, pages=1036}
+Book{title='Book249', year=1951, pages=562}
+Book{title='Book654', year=1960, pages=722}
+Book{title='Book882', year=1914, pages=994}
+Book{title='Book125', year=1891, pages=648}
+Book{title='Book707', year=1902, pages=724}
+Book{title='Book160', year=1939, pages=230}
+Book{title='Book697', year=1830, pages=351}
+Book{title='Book457', year=1961, pages=197}
+Book{title='Book327', year=1944, pages=100}
+Book{title='Book827', year=1989, pages=376}
+Book{title='Book944', year=1979, pages=942}
+Book{title='Book564', year=1966, pages=113}
+Book{title='Book498', year=1892, pages=974}
+Book{title='Book099', year=1987, pages=615}
+Book{title='Book531', year=1870, pages=87}
+
+------------------------------------------------------------------
+
