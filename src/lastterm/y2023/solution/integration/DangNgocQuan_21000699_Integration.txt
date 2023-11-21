@@ -1,0 +1,40 @@
+Test ArrayPolynomial:
+
+poly1:                                     [1.0 + 4.0x + x^2 + (-2.0)x^4]
+poly1.append(coefficient = 5):             [1.0 + 4.0x + x^2 + (-2.0)x^4 + 5.0x^5]
+poly1.insert(coefficient = 3, index = 1):  [1.0 + 3.0x + 4.0x^2 + x^3 + (-2.0)x^5 + 5.0x^6]
+poly1.set(coefficient = 0, index = 2):     [1.0 + 3.0x + x^3 + (-2.0)x^5 + 5.0x^6]
+
+poly2:                                     [2.0 + (-3.0)x + x^3]
+poly1 + poly2:                             [3.0 + 2.0x^3 + (-2.0)x^5 + 5.0x^6]
+poly1 - poly2:                             [(-1.0) + 6.0x + (-2.0)x^5 + 5.0x^6]
+poly1 * poly2:                             [2.0 + 3.0x + (-9.0)x^2 + 3.0x^3 + (-4.0)x^5 + 17.0x^6 + (-15.0)x^7 + (-2.0)x^8 + 5.0x^9]
+poly2.evaluate(x = 2):                     4.0
+
+-------------------------------------------------------------------------------------
+
+Test ListPolynomial:
+
+poly1:                                     [1.0 + 4.0x + x^2 + (-2.0)x^4]
+poly1.append(coefficient = 5):             [1.0 + 4.0x + x^2 + (-2.0)x^4 + 5.0x^5]
+poly1.insert(coefficient = 3, index = 1):  [1.0 + 3.0x + 4.0x^2 + x^3 + (-2.0)x^5 + 5.0x^6]
+poly1.set(coefficient = 0, index = 2):     [1.0 + 3.0x + x^3 + (-2.0)x^5 + 5.0x^6]
+
+poly2:                                     [2.0 + (-3.0)x + x^3]
+poly1 + poly2:                             [3.0 + 2.0x^3 + (-2.0)x^5 + 5.0x^6]
+poly1 - poly2:                             [(-1.0) + 6.0x + (-2.0)x^5 + 5.0x^6]
+poly1 * poly2:                             [2.0 + 3.0x + (-9.0)x^2 + 3.0x^3 + (-4.0)x^5 + 17.0x^6 + (-15.0)x^7 + (-2.0)x^8 + 5.0x^9]
+poly2.evaluate(x = 2):                     4.0
+
+-------------------------------------------------------------------------------------
+
+Test IntegrationCalculator:
+
+poly:                                      [9.0 + (-10.0)x + x^2]
+precision = 0.001
+maxIterations = 1000
+lower = 0.0
+upper = 5.0
+Using Midpoint Rule:                       value = -38.33333343750003
+Using Trapezoid Rule Solver:               value = -38.33333312499994
+Using SimpsonRule Solver:                  value = -38.333333333333236

@@ -1,0 +1,400 @@
+testOriginalData()
+[20001878 20001879 20001881 20001889 20001880 20001887 20001888 20001885 20001883 20001882 20001884 20001886 20001890 20001892 20001893 20000166 20001894 20001895 20001896 20001897 20001898 20001899 20001900 20001903 20001902 20001901 20001904 20001905 20001906 20001907 20001909 20000115 20001911 20001910 20001912 20001913 20001914 20001917 20001918 20000368 20001916 20001920 20001921 20001922 20001923 20000223 20001924 20001925 20001926]
+
+testSortYearOfBirthIncreasing()
+[20001925 20001905 20001888 20001884 20001900 20001904 20001912 20001920 20001878 20001889 20001882 20001895 20001899 20001901 20000115 20001911 20001914 20001917 20001921 20001922 20001926 20001881 20001883 20001890 20000166 20001898 20001902 20001907 20001910 20000368 20001916 20001924 20001879 20001887 20001894 20001909 20001906 20001923 20001880 20001896 20001897 20001913 20001885 20001886 20001892 20001903 20001918 20000223 20001893]
+
+testSortMathsGradeDecreasing()
+[
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+]
+
+testSortMathsGradeIncreasing()
+[
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+]
+
+testSortMathsGradeDecreasing()
+[
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+]
+
+testSortPhysicsGradeIncreasing()
+[
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+]
+
+testSortPhysicsGradeDecreasing()
+[
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+]
+
+testSortChemistryGradeIncreasing()
+[
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+]
+
+testSortChemistryGradeDecreasing()
+[
+Student{id='20001887', lastname='Phạm Hùng', firstname='Anh', yearOfBirth=2004, mathsGrade=7.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20000166', lastname='Nguyễn Như', firstname='Cường', yearOfBirth=2003, mathsGrade=9.5, physicsGrade=9.5, chemistryGrade=10.0}
+Student{id='20001907', lastname='Lương Đình', firstname='Đức', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=8.5, chemistryGrade=10.0}
+Student{id='20001889', lastname='Vũ Hải', firstname='Anh', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001882', lastname='Hoàng Thị Vân', firstname='Anh', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=9.5, chemistryGrade=9.5}
+Student{id='20001900', lastname='Nguyễn Văn Hải', firstname='Dương', yearOfBirth=2001, mathsGrade=8.0, physicsGrade=7.5, chemistryGrade=9.5}
+Student{id='20001911', lastname='Trần Ngọc', firstname='Hải', yearOfBirth=2002, mathsGrade=2.5, physicsGrade=8.0, chemistryGrade=9.5}
+Student{id='20001886', lastname='Phạm Dương Việt', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=9.0}
+Student{id='20001895', lastname='Lê Thị Thuỳ', firstname='Dung', yearOfBirth=2002, mathsGrade=8.5, physicsGrade=7.0, chemistryGrade=9.0}
+Student{id='20001906', lastname='Đỗ Anh', firstname='Đức', yearOfBirth=2005, mathsGrade=8.5, physicsGrade=4.5, chemistryGrade=9.0}
+Student{id='20001914', lastname='Nguyễn Thị Thu', firstname='Hiền', yearOfBirth=2002, mathsGrade=6.0, physicsGrade=2.0, chemistryGrade=9.0}
+Student{id='20001925', lastname='Vũ Tiến', firstname='Hùng', yearOfBirth=1999, mathsGrade=4.5, physicsGrade=4.0, chemistryGrade=9.0}
+Student{id='20001885', lastname='Nguyễn Thục', firstname='Anh', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=4.5, chemistryGrade=8.5}
+Student{id='20001898', lastname='Bùi Khánh', firstname='Duy', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.5}
+Student{id='20001913', lastname='Ngô Thị Thu', firstname='Hằng', yearOfBirth=2006, mathsGrade=4.0, physicsGrade=4.0, chemistryGrade=8.5}
+Student{id='20001879', lastname='Nguyễn Văn', firstname='An', yearOfBirth=2004, mathsGrade=5.5, physicsGrade=6.5, chemistryGrade=8.0}
+Student{id='20001880', lastname='Chu Hoàng', firstname='Anh', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001893', lastname='Nguyễn Đức', firstname='Chính', yearOfBirth=2008, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=8.0}
+Student{id='20001897', lastname='Phùng Văn', firstname='Dũng', yearOfBirth=2006, mathsGrade=9.5, physicsGrade=5.0, chemistryGrade=8.0}
+Student{id='20001878', lastname='Nguyễn Trường', firstname='An', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=8.0, chemistryGrade=7.5}
+Student{id='20000115', lastname='Vũ Trường', firstname='Giang', yearOfBirth=2002, mathsGrade=3.5, physicsGrade=9.0, chemistryGrade=7.5}
+Student{id='20001884', lastname='Nguyễn Bá Việt', firstname='Anh', yearOfBirth=2001, mathsGrade=6.0, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001892', lastname='Nguyễn Duy', firstname='Chiến', yearOfBirth=2007, mathsGrade=9.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001896', lastname='Nguyễn Quang', firstname='Dũng', yearOfBirth=2006, mathsGrade=5.5, physicsGrade=8.0, chemistryGrade=7.0}
+Student{id='20001901', lastname='Đỗ Tiến', firstname='Đạt', yearOfBirth=2002, mathsGrade=7.5, physicsGrade=5.5, chemistryGrade=7.0}
+Student{id='20001905', lastname='Nguyễn Văn', firstname='Đồng', yearOfBirth=2000, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=7.0}
+Student{id='20001923', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2005, mathsGrade=9.5, physicsGrade=9.0, chemistryGrade=7.0}
+Student{id='20001912', lastname='Trần Tiến', firstname='Hảo', yearOfBirth=2001, mathsGrade=1.5, physicsGrade=9.0, chemistryGrade=6.5}
+Student{id='20001890', lastname='Trần Thanh', firstname='Bình', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=8.0, chemistryGrade=6.0}
+Student{id='20001894', lastname='Thân Lê Quang', firstname='Cường', yearOfBirth=2004, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001903', lastname='Nguyễn Quốc', firstname='Đạt', yearOfBirth=2007, mathsGrade=9.0, physicsGrade=9.5, chemistryGrade=6.0}
+Student{id='20001916', lastname='Bùi Trung', firstname='Hiếu', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=7.5, chemistryGrade=6.0}
+Student{id='20001921', lastname='Nguyễn Văn', firstname='Hòa', yearOfBirth=2002, mathsGrade=7.0, physicsGrade=4.0, chemistryGrade=6.0}
+Student{id='20001881', lastname='Đồng Đức', firstname='Anh', yearOfBirth=2003, mathsGrade=4.5, physicsGrade=9.0, chemistryGrade=5.5}
+Student{id='20001883', lastname='Lê Tuyết', firstname='Anh', yearOfBirth=2003, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=5.5}
+Student{id='20001888', lastname='Phùng Thị Mai', firstname='Anh', yearOfBirth=2001, mathsGrade=5.5, physicsGrade=8.5, chemistryGrade=5.0}
+Student{id='20001909', lastname='Phạm Minh', firstname='Đức', yearOfBirth=2004, mathsGrade=4.5, physicsGrade=6.5, chemistryGrade=5.0}
+Student{id='20001918', lastname='Lê Minh', firstname='Hiếu', yearOfBirth=2007, mathsGrade=7.5, physicsGrade=10.0, chemistryGrade=5.0}
+Student{id='20001899', lastname='Bùi Đăng', firstname='Dương', yearOfBirth=2002, mathsGrade=5.5, physicsGrade=6.0, chemistryGrade=4.5}
+Student{id='20001910', lastname='Nguyễn Văn', firstname='Hải', yearOfBirth=2003, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.5}
+Student{id='20001902', lastname='Lâm Sơn', firstname='Đạt', yearOfBirth=2003, mathsGrade=5.5, physicsGrade=10.0, chemistryGrade=4.0}
+Student{id='20001904', lastname='Vi Văn', firstname='Đô', yearOfBirth=2001, mathsGrade=9.0, physicsGrade=7.5, chemistryGrade=4.0}
+Student{id='20001917', lastname='Đỗ Minh', firstname='Hiếu', yearOfBirth=2002, mathsGrade=8.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001920', lastname='Phan Xuân', firstname='Hiếu', yearOfBirth=2001, mathsGrade=6.5, physicsGrade=9.5, chemistryGrade=4.0}
+Student{id='20000223', lastname='Lê Việt', firstname='Hoàng', yearOfBirth=2007, mathsGrade=10.0, physicsGrade=5.0, chemistryGrade=4.0}
+Student{id='20001926', lastname='Lưu Hiểu', firstname='Huy', yearOfBirth=2002, mathsGrade=9.0, physicsGrade=7.0, chemistryGrade=4.0}
+Student{id='20001922', lastname='Mạc Duy', firstname='Hoan', yearOfBirth=2002, mathsGrade=4.5, physicsGrade=3.0, chemistryGrade=3.0}
+Student{id='20001924', lastname='Đào Quốc', firstname='Hội', yearOfBirth=2003, mathsGrade=8.5, physicsGrade=6.0, chemistryGrade=2.0}
+Student{id='20000368', lastname='Đỗ Tràng', firstname='Hiếu', yearOfBirth=2003, mathsGrade=9.0, physicsGrade=6.0, chemistryGrade=1.0}
+]
+
+testFilterStudentsHighestMathsGrade()
+[20000223 20001880 20001892 20000166 20001897]
+
+testFilterStudentsLowestMathsGrade()
+[20001912 20001911 20000115 20001913 20001881]
+
+testFilterStudentsHighestPhysicsGrade()
+[20001902 20001918 20001887 20001883 20001882]
+
+testFilterStudentsLowestPhysicsGrade()
+[20001914 20001922 20001913 20001921 20001925]
+
+testFilterStudentsHighestChemistryGrade()
+[20001887 20000166 20001907 20001889 20001882]
+
+testFilterStudentsLowestChemistryGrade()
+[20001887 20000166 20001907 20001889 20001882]
+
+testFilterStudentsHighestAverageGrade()
+[20000166 20001882 20001887 20001907 20001886]
+
+testFilterStudentsLowestAverageGrade()
+[20001922 20001899 20001909 20000368 20001913]
